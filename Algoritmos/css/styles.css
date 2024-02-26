@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    font-family: "Arimo", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+section{
+width: 100%;
+height: 100vh;
+background: url("../img/img1.jpg");
+background-size: cover;
+padding-top: 100px;
+
+}
+
+#cont-botones{
+    width: 76%;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.695);
+    text-align: center;
+    padding: 40px;
+    border: 2px solid #ffff;
+    
+}
+h1{
+    color: #ffff;
+    padding: 20px 0;
+    font-size: 40px;
+}
+
+p{
+    color: #ffff;
+    font-size: 22px;
+    font-size: 20px;
+
+
+}
+hr{
+    margin: 40px 0 40px 0;
+}
+
+button{
+    padding: 12px 40px;
+    margin: 10px 15px;
+    font-size: 20px;
+    background: #ffff;
+    border-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+
+
+}
+
+button:hover{
+    background: #ffff;
+    color: blue;
+    transform: scale(1.1);
+
+}
